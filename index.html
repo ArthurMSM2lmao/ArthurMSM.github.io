@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        html,
+        body {
+            width: 100vw;
+            height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/Grid lmao 2.png');
+            background-color: black;
+            background-repeat: repeat;
+            animation: funni 5s linear infinite;
+        }
+
+        @keyframes funni {
+            0% {
+                background-position: 0px 0px;
+            }
+
+            100% {
+                background-position: 224px 112px;
+            }
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .about-me {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .about-me img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        p {
+            margin: 0px;
+            color: white;
+        }
+
+        h1 {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Website!</h1>
+    </header>
+    <main>
+        <section class="about-me">
+            <h2 style="padding: 10px; background-color: #ff0095;">About Me</h2>
+            <p>Hi! Im Arthur! and i really like to make 3D Models, renders, and games! my games do suck a LOT due to the
+                fact that i don't know lots of coding lmao</p>
+        </section>
+        <div class="container">
+            <div class="slot">
+                <img src="images\Arthur Ford lmao 2.png" alt="Image 1">
+                <p>If there's a game i like a LOT its gotta be ULTRAKILL, TF2, Boneworks, And more!</p>
+            </div>
+            <div class="slot">
+                <img src="images\Dev Community logo 100x100p.png" alt="Image 2">
+                <p>I also like to make mods, thats why i made this <a href="https://discord.gg/xdCtRcazHd">Discord
+                        Server! </a>to help people with modding Source Games
+                </p>
+            </div>
+            <div class="slot">
+                <img src="image3.jpg" alt="Image 3">
+                <p>Placeholder text for Image 3</p>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script>
+        console.log("Hello bro :3");
+    </script>
+</body>
+
+</html>
