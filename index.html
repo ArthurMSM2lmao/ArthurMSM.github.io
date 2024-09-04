@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="images/DevCommunityLogoV4.png">
-        <title>ArthurMSM</title>
-        <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
         html,
         body {
             width: 100vw;
             height: 100%;
-            margin: 0;
-            padding: 0;
         }
 
         body {
@@ -20,7 +17,7 @@
             margin: 0;
             padding: 0;
             background-size: 1010px;
-            background-image: url('https://arthurmsm2lmao.github.io/ArthurMSM.github.io/images/Grid_2_Lmao.png');
+            background-image: url('images/Grid_2_Lmao.png');
             background-color: black;
             background-repeat: repeat;
             animation: funni 5s linear infinite;
@@ -54,26 +51,53 @@
         }
 
         html {
-            overflow: scroll;
-            overflow-x: hidden;
-        }
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 
-        ::-webkit-scrollbar {
-            width: 0;
-            /* Remove scrollbar space */
-            background: transparent;
-            /* Optional: just make scrollbar invisible */
-        }
-
-        /* Optional: show position indicator in red */
-        ::-webkit-scrollbar-thumb {
-            background: #FF0000;
+        main {
+            padding: 20px;
         }
 
         .about-me {
             text-align: center;
-            padding-bottom: 20px;
-            background-color: #282828;
+            margin: 20px 0;
+        }
+
+        .about-me img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
 
         p {
@@ -86,167 +110,78 @@
             color: white;
         }
 
-        h2 {
-            margin: 0px;
-            color: white;
-        }
-
         img {
-            border-radius: 20px;
+            border-radius: 10px;
         }
 
         .doohickey {
             text-align: center;
-            margin: 0px;
-            background-color: #0f0f0f;
-            width: max-content;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding-left: 500;
-            padding-top: 40px;
-            padding: 10px;
-            padding-right: 1115px;
         }
 
         .Button {
             font-size: 50px;
-            margin-top: 10px;
+            margin-top: 100px;
             margin-bottom: 10px;
-            margin-left: 64px;
+            margin-left: 256px;
             color: #ffffff;
             border-radius: 10px;
             font: arial;
             background-size: 100px;
-            background-image: url(https://arthurmsm2lmao.github.io/ArthurMSM.github.io/images/Grid_Purple_Woo.png);
+            background-image: url(images/Grid_Purple_Woo.png);
             animation: funni2 60s linear infinite;
             background-color: #b700ff;
-            width: fit-content;
-            border: 2px solid rgb(204, 0, 255);
-            padding: 2px;
         }
 
-        .container {
-            background-color: #252525;
-            width: fit-content;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 40px;
-            padding: 10px;
-        }
 
-        .container2 {
-            background-color: #0f0f0f;
-            width: fit-content;
-            display: flex;
-            flex-direction:column;
-            align-items: center;
-            padding-top: 40px;
-            padding: 10px;
-            padding-left: 512px;
-            padding-right: 556px;
-        }
-
-        .container > img {
-            width: 256px;
-        }
-
-        .container > p {
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
     </style>
-    </head>
+</head>
 
-    <body>
-        <header>
-            <h1>Welcome to My Website!</h1>
-        </header>
-
-        <div
-            style="display: flex; flex-direction: column; align-items: center; width: 100%;">
-            <div class="about-me" style="width: 100%;">
-                <h2 style="padding: 10px; background-color: #ff006a;">About
-                    Me</h2>
-                <p>Hi! Im Arthur! and i really like to make 3D Models, renders,
-                    and games! my games do suck a LOT due to the
-                    fact that i don't know lots of coding lmao</p>
-            </div>
-        </div>
-
+<body>
+    <header>
+        <h1>Welcome to My Website!</h1>
+    </header>
+    <main>
+        <section class="about-me">
+            <h2 style="padding: 10px; background-color: #ff0095;">About Me</h2>
+            <p>Hi! Im Arthur! and i really like to make 3D Models, renders, and games! my games do suck a LOT due to the
+                fact that i don't know lots of coding lmao</p>
+        </section>
         <div class="container">
-            <img
-                src="https://arthurmsm2lmao.github.io/ArthurMSM.github.io/images/ArthurFordLmao.png"
-                alt="Image 1">
-            <p>If there's a game i like a LOT its gotta be ULTRAKILL, TF2,
-                Boneworks, And more!</p>
-
-            <img
-                src="https://arthurmsm2lmao.github.io/ArthurMSM.github.io/images/DevCommunityLogoV3.png"
-                alt="Image 2">
-            <p>I also like to make mods, thats why i made this <a
-                    href="https://discord.gg/xdCtRcazHd">Discord
-                    Server! </a>to help people with modding Source Games
-            </p>
-
-            <img
-                src="https://arthurmsm2lmao.github.io/ArthurMSM.github.io/images/CaughtIn4k.png"
-                alt="Image 3">
-            <p>I also have your IP</p>
-            <p>Wanna read more? go to the console, i've left some really cool
-                logs for ya!</p>
+            <div class="slot">
+                <img src="images/ArthurFordLmao.png" alt="Image 1">
+                <p>If there's a game i like a LOT its gotta be ULTRAKILL, TF2, Boneworks, And more!</p>
+            </div>
+            <div class="slot">
+                <img src="images/DevCommunityLogoV3.png" alt="Image 2">
+                <p>I also like to make mods, thats why i made this <a href="https://discord.gg/xdCtRcazHd">Discord
+                        Server! </a>to help people with modding Source Games
+                </p>
+            </div>
+            <div class="slot">
+                <img src="images/CaughtIn4k.png" alt="Image 3">
+                <p>I also have your IP</p>
+            </div>
+             <div class="main-text">
         </div>
+        </section>
+    </main>
+    
+    <audio src="music/MidnightVoidDark.mp3" autoplay></audio>
 
-        <h1 class="doohickey">                                                               Links & Social Media</h1>
-        <div class="container2">
-            <a href="https://gamebanana.com/members/2141036"
-                style="text-decoration: none;">
-                <p class="Button">Gamebanana</p>
-            </a>
-
-            <a href="https://www.youtube.com/@ArthurMSM2"
-                style="text-decoration: none;">
-                <p class="Button">Youtube</p>
-            </a>
-
-            <a href="https://x.com/ArthurMSM2"
-                style="text-decoration: none;">
-                <p class="Button">Twitter</p>
-            </a>
-
-            <a href="https://www.twitch.tv/arthurmsm2"
-                style="text-decoration: none;">
-                <p class="Button">Twitch</p>
-            </a>
-
-            <a href="https://discord.gg/xq9eQaAxqh"
-                style="text-decoration: none;">
-                <p class="Button">Discord</p>
-            </a>
-        </div>
-
-        <audio src="music/MidnightVoidDark.mp3" autoplay></audio>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="index.js"></script>
-
-        <script>
-        console.log("Hello bro :3 - Koru")
-        console.log("I made this website for fun, i started it by making ChatGPT shit out a HTML at gunpoint, then i reached out for Koru, he helped me a lot with this website, but then i started to remember, an old friend in fact, i had manipulated him, and made him go through a lot, even a panic attack, that happened due to the fact that i was around 10, i started fealing jealous or something, so i got mad at him, and as previously stated, manipulated him. I don't know what was wrong with me, but i feel bad for doing such thing, i hope he is all right.");
-        console.log("I also felt anger after that, i wanted to be his friend, but then i thought to myself: if i can't reach him through discord nor his e-mail, i might aswell reach him by sending stuff to him.")
-        console.log("Fun fact! the original version of this website had an IP Grabber, but then i got absolutely demolished by Redox, Shoutout to him for making me look like a dumbass, in fact i was lmao, the code was actually public because im using github, i was gonna use the IP Grabber to get the location of my old friend but i simply did not have any connections to him.")
-        console.log("I feel some anger when i think of him, some sadness, i feel happy also, i don't know what i feel, he was a nice friend to me, but i pushed him away.")
-        console.log("I'd love to be able to talk to him again, he was my best friend after all.")
-        console.log("Imma be honest, i was homophobic to him in many ways, he first was straight, then he decided he was gay, then Bisexual, then Pansexual and finally he settled with Bisexual.")
-        console.log("I also hated his Boyfriend, i don't know, i am not homophobic normally, i just thought it was stupid, i don't know how to explain.")
-        console.log("One day i told one of his friends that i thought that it was stupid to have the name of your lover on your profile, status, whatever!")
-        console.log("I wanted to implement another IP Grabber on this website, but i would be endangering other people's info with this, i tell you what, if my IP Grabber got a bunch of IP's and someone got inside the webhook, it would be a disaster.")
-        console.log("I also dedicated a lot of time into writing these logs, i'll probably stop updating these but i think its a good secret for anyone who goes inside the files of this website, console")
-        console.log("Also if i kept the IP Grabber and it happens to grab your ip, only you or i could stop it, i mean, its github after all.")
-        console.log("And Thank you so much, for reading these logs, and remember, i love you <3")
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    
+    <script>
+        console.log("Hello bro :3");
     </script>
+<H1 class="doohickey">Links & Social Media</H1>
+<form action="https://gamebanana.com/members/2141036">
+    <input class="Button" type="submit" value="Gamebanana" />
+</form>
+<form action="https://www.youtube.com/@ArthurMSM2">
+    <input class="Button" type="submit" value="Youtube" />
+</form>
 
-    </body>
+</body>
 
 </html>

